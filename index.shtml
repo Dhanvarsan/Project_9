@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Project</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--#include virtual="includes/meta-tags.html"-->
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="banner-wrapper">
+            <!-- <iframe src="https://giphy.com/embed/26FPBDMINv5Dft5gA" frameBorder="0" class="giphy-embed" allowFullScreen></iframe> -->
+            <video id="vdo" src="./images/video.mp4" class="giphy-embed" allowfullscreen autoplay loop muted></video>
+            <!-- <iframe id="vdo2" allowFullScreen src="https://giphy.com/embed/QczWE2OOUYJUlpvHzo/video" class="giphy-embed"></iframe> -->
+             <video id="vdo2" src="https://i.giphy.com/media/QczWE2OOUYJUlpvHzo/giphy360p.mp4" class="giphy-embed" allowfullscreen autoplay loop muted></video>
+
+            <div class="container">
+                <div class="banner-content df"  data-aos="zoom-in" data-aos-duration="1000">
+                    <h1>We're <span>Fusion</span>, We Build<br>Things for Humen</h1>
+                    <div class="df">
+                        <!-- <a href="javascript:;">Design</a><span>|</span>
+                        <a href="javascript:;">Stratagy</a><span>|</span>
+                        <a href="javascript:;">Branding</a> -->
+                        <a href="javascript:;" id="lte">Light Mode</a><span>|</span>
+                        <a href="javascript:;" id="scroollTo">Scroll</a><span>|</span>
+                        <a href="javascript:;" id="dark" class="added">Dark Mode</a>
+                    </div>
+                </div>
+            </div>
+            <!--#include virtual="includes/header.html"-->
+
+        </div>
+        <div class="home-section-wrapper">
+            <div class="container">
+                <div class="home-service-h df"  data-aos="fade-up" data-aos-duration="1000">
+                    <hr>
+                    <h3>OUR SERVICE</h3>
+                    <h2>Our Team will take your business<br>presence to new level</h2>
+                </div>
+                <div class="service-box-all df" data-aos="fade-up" data-aos-duration="1000">
+                    <div class="service-box">
+                        <img src="./images/analysis.png" alt="Strategy">
+                        <h2>Strategy</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, atque. Amet maiores distinctio vitae cumque esse ipsam tenetur </p>
+                        <a href="javascript:;" class="arrow-btn">SEE DETAILS</a>
+                    </div>
+                    <div class="service-box">
+                        <img src="./images/branding.png" alt="Branding">
+                        <h2>Branding</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, atque. Amet maiores distinctio vitae cumque esse ipsam tenetur </p>
+                        <a href="javascript:;" class="arrow-btn">SEE DETAILS</a>
+                    </div>
+                    <div class="service-box">
+                        <img src="./images/web-design.png" alt="Design">
+                        <h2>Design</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, atque. Amet maiores distinctio vitae cumque esse ipsam tenetur </p>
+                        <a href="javascript:;" class="arrow-btn">SEE DETAILS</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="home-slider-wrapper">
+            <div class="container">
+                <div class="home-slider-all" data-flickity='{ "autoPlay": true }'>
+                    <div class="home-slider-sep df carousel-cell">
+                        <div class="home-service-h home-slider-h df" data-aos="fade-left" data-aos-duration="1000">
+                            <hr>
+                            <h3>OUR PORTFOLIO</h3>
+                            <h2>Project One</h2>
+                        </div>
+                        <div class="slider-img"><img src="./images/portfolio.jpg" alt="portfolio"></div>
+                        <div class="slider-btns df" data-aos="fade-right" data-aos-duration="1000">
+                            <a href="javascript:;" class="arrow-btn">PROJECT DETAILS</a>
+                            <a href="javascript:;" class="arrow-btn">VIEW SLIDES</a>
+                            <hr>
+                        </div>
+                    </div>
+                    <div class="home-slider-sep df carousel-cell">
+                        <div class="home-service-h home-slider-h df" data-aos="fade-left" data-aos-duration="1000">
+                            <hr>
+                            <h3>OUR PORTFOLIO</h3>
+                            <h2>Project Two</h2>
+                        </div>
+                        <div class="slider-img"><img src="./images/portfolio.jpg" alt="portfolio"></div>
+                        <div class="slider-btns df" data-aos="fade-right" data-aos-duration="1000">
+                            <a href="javascript:;" class="arrow-btn">PROJECT DETAILS</a>
+                            <a href="javascript:;" class="arrow-btn">VIEW SLIDES</a>
+                            <hr>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="home-section-wrapper">
+            <div class="container">
+                <div class="home-service-h df" data-aos="fade-up" data-aos-duration="1000">
+                    <hr>
+                    <h3>TESTIMONIALS</h3>
+                    <h2>We have worked with some amazing<br>companies aroundthe world</h2>
+                </div>
+                <div class="client-logo-all df" data-aos="fade-up" data-aos-duration="1000">
+                    <!-- <img src="./images/dummy-logo.png" alt="logo">
+                    <img src="./images/dummy-logo.png" alt="logo">
+                    <img src="./images/dummy-logo.png" alt="logo">
+                    <img src="./images/dummy-logo.png" alt="logo">
+                    <img src="./images/dummy-logo.png" alt="logo">
+                    <img src="./images/dummy-logo.png" alt="logo">
+                    <img src="./images/dummy-logo.png" alt="logo"> -->
+                    <img src="./images/logos.svg" alt="">
+                </div>
+                <div class="test-all">
+                    <div class="test-sep df">
+                        <img src="./images/test-dummy.jpg" alt="Testimnials">
+                        <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis sit aliquid reiciendis. Illo esse, doloremque libero recusandae soluta, adipisci deserunt enim, nemo rerum earum distinctio tempore vel molestiae rem quo!"</p>
+                        <hr>
+                        <div class="client-name">
+                            <h3>Anthony Watson</h3>
+                            <h5>CEO of Autodesk</h5>
+                        </div>
+                    </div>
+                    <div class="test-sep df">
+                        <img src="./images/test-dummy.jpg" alt="Testimnials">
+                        <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis sit aliquid reiciendis. Illo esse, doloremque libero recusandae soluta, adipisci deserunt enim, nemo rerum earum distinctio tempore vel molestiae rem quo!"</p>
+                        <hr>
+                        <div class="client-name">
+                            <h3>Anthony Watson</h3>
+                            <h5>CEO of Autodesk</h5>
+                        </div>
+                    </div>
+                    <div class="test-sep df">
+                        <img src="./images/test-dummy.jpg" alt="Testimnials">
+                        <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis sit aliquid reiciendis. Illo esse, doloremque libero recusandae soluta, adipisci deserunt enim, nemo rerum earum distinctio tempore vel molestiae rem quo!"</p>
+                        <hr>
+                        <div class="client-name">
+                            <h3>Anthony Watson</h3>
+                            <h5>CEO of Autodesk</h5>
+                        </div>
+                    </div>
+                    <div class="test-sep df">
+                        <img src="./images/test-dummy.jpg" alt="Testimnials">
+                        <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis sit aliquid reiciendis. Illo esse, doloremque libero recusandae soluta, adipisci deserunt enim, nemo rerum earum distinctio tempore vel molestiae rem quo!"</p>
+                        <hr>
+                        <div class="client-name">
+                            <h3>Anthony Watson</h3>
+                            <h5>CEO of Autodesk</h5>
+                        </div>
+                    </div>
+                    <div class="test-sep df">
+                        <img src="./images/test-dummy.jpg" alt="Testimnials">
+                        <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis sit aliquid reiciendis. Illo esse, doloremque libero recusandae soluta, adipisci deserunt enim, nemo rerum earum distinctio tempore vel molestiae rem quo!"</p>
+                        <hr>
+                        <div class="client-name">
+                            <h3>Anthony Watson</h3>
+                            <h5>CEO of Autodesk</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="home-section-wrapper" style="background: rgba(0, 0, 0, 0.967);">
+            <div class="container">
+                <div class="home-service-h df" data-aos="fade-up" data-aos-duration="1000">
+                    <hr>
+                    <h3>OUR TEAM</h3>
+                    <h2>Our Amazing Team</h2>
+                </div>
+                <div class="team-all df">
+                    <div class="team-sep df" data-aos="fade-right" data-aos-duration="1000">
+                        <div class="team-inner df">
+                            <img src="./images/test-dummy.jpg" alt="Team">
+                            <div class="team-name">
+                                <h3>Venkat prabhu</h3>
+                                <h5>CEO</h5>
+                            </div>
+                        </div>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro cumque voluptatibus tempore animi? Quas, aspernatur! Quibusdam umque voluptatibus tempore animi? Quas, aspernatur! Quibusdam.</p>
+                    </div>
+                    <div class="team-sep df" data-aos="fade-right" data-aos-duration="1000">
+                        <div class="team-inner df">
+                            <img src="./images/test-dummy.jpg" alt="Team">
+                            <div class="team-name">
+                                <h3>Venkat prabhu</h3>
+                                <h5>CEO</h5>
+                            </div>
+                        </div>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro cumque voluptatibus tempore animi? Quas, aspernatur! Quibusdam umque voluptatibus tempore animi? Quas, aspernatur! Quibusdam.</p>
+                    </div>
+                    <div class="team-sep df" data-aos="fade-left" data-aos-duration="1000">
+                        <div class="team-inner df">
+                            <img src="./images/test-dummy.jpg" alt="Team">
+                            <div class="team-name">
+                                <h3>Venkat prabhu</h3>
+                                <h5>CEO</h5>
+                            </div>
+                        </div>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro cumque voluptatibus tempore animi? Quas, aspernatur! Quibusdam umque voluptatibus tempore animi? Quas, aspernatur! Quibusdam.</p>
+                    </div>
+
+                    <div class="team-sep df" data-aos="fade-left" data-aos-duration="1000">
+                        <div class="team-inner df">
+                            <img src="./images/test-dummy.jpg" alt="Team">
+                            <div class="team-name">
+                                <h3>Venkat prabhu</h3>
+                                <h5>CEO</h5>
+                            </div>
+                        </div>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro cumque voluptatibus tempore animi? Quas, aspernatur! Quibusdam umque voluptatibus tempore animi? Quas, aspernatur! Quibusdam.</p>
+                    </div>
+                    <div class="team-sep df" data-aos="fade-right" data-aos-duration="1000">
+                        <div class="team-inner df">
+                            <img src="./images/test-dummy.jpg" alt="Team">
+                            <div class="team-name">
+                                <h3>Venkat prabhu</h3>
+                                <h5>CEO</h5>
+                            </div>
+                        </div>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro cumque voluptatibus tempore animi? Quas, aspernatur! Quibusdam umque voluptatibus tempore animi? Quas, aspernatur! Quibusdam.</p>
+                    </div>
+                    <div class="team-sep df" data-aos="fade-right" data-aos-duration="1000">
+                        <div class="team-inner df">
+                            <img src="./images/test-dummy.jpg" alt="Team">
+                            <div class="team-name">
+                                <h3>Venkat prabhu</h3>
+                                <h5>CEO</h5>
+                            </div>
+                        </div>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro cumque voluptatibus tempore animi? Quas, aspernatur! Quibusdam umque voluptatibus tempore animi? Quas, aspernatur! Quibusdam.</p>
+                    </div>
+                    <div class="team-sep df" data-aos="fade-left" data-aos-duration="1000">
+                        <div class="team-inner df">
+                            <img src="./images/test-dummy.jpg" alt="Team">
+                            <div class="team-name">
+                                <h3>Venkat prabhu</h3>
+                                <h5>CEO</h5>
+                            </div>
+                        </div>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro cumque voluptatibus tempore animi? Quas, aspernatur! Quibusdam umque voluptatibus tempore animi? Quas, aspernatur! Quibusdam.</p>
+                    </div>
+                    <div class="team-sep df" data-aos="fade-left" data-aos-duration="1000">
+                        <div class="team-inner df">
+                            <img src="./images/test-dummy.jpg" alt="Team">
+                            <div class="team-name">
+                                <h3>Venkat prabhu</h3>
+                                <h5>CEO</h5>
+                            </div>
+                        </div>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro cumque voluptatibus tempore animi? Quas, aspernatur! Quibusdam umque voluptatibus tempore animi? Quas, aspernatur! Quibusdam.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="home-section-wrapper home-contact-wrapper">
+            <div class="container">
+                <div class="home-service-h df pr" data-aos="fade-up" data-aos-duration="1000">
+                    <hr>
+                    <h3>CONTACT US</h3>
+                    <h2>Let's talk about the project</h2>
+                </div>
+                <div class="home-form pr" data-aos="fade-up" data-aos-duration="1000">
+                    <form action="">
+                       <div class="home-form-inner df">
+                            <div class="form-sep df fcr">
+                                <input type="text" name="txtName" placeholder="Your Name">
+                                <label for="txtName">Name:</label>
+                            </div>
+                            <div class="form-sep df fcr">
+                                <input type="text" name="txtEmail" placeholder="Your Email">
+                                <label for="txtEmail">Email:</label>
+                            </div>
+                            <div class="form-sep df fcr">
+                                <input type="text" name="txtCompanyName" placeholder="Company Name">
+                                <label for="txtCompanyName">Company Name:</label>
+                            </div>
+                            <div class="form-sep df fcr">
+                                <input type="text" placeholder="Subject">
+                                <label for="txtSubject">Subject:</label>
+                            </div>
+                       </div>
+                        <div class="formBtn df fc">
+                            <div class="form-sep df fcr">
+                        <input type="text" placeholder="Your Message">
+                        <label for="txtMessage">Message:</label>
+                        </div>
+                        <button type="submit" >GET IN TOUCH <span>&#8594;</span> </button>
+                        </div>
+                    </form>
+                </div>
+        <!--#include virtual="includes/footer.html"-->
+
+            </div>
+        </div>
+
+    </div>
+    <script src="https://npmcdn.com/flickity@2/dist/flickity.pkgd.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.0.5/flickity.pkgd.min.js"></script> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <script src="https://npmcdn.com/flickity@2/dist/flickity.pkgd.js"></script>
+
+    <script>
+        let $carousel = $('.home-slider-all').flickity();
+        let $carousel2 = $('.test-all').flickity();
+
+        $('.carousel').flickity({
+            arrowShape: {
+                x0: 10,
+                x1: 40,
+                y1: 50,
+                x2: 80,
+                y2: 50,
+                x3: 50
+            }
+        });
+        $('#lte').on('click', function() {
+            $('body').addClass('white')
+            $('#lte').addClass('added')
+            $('#dark').removeClass('added')
+        });
+        $('#dark').on('click', function() {
+            $('body').removeClass('white')
+            $('#dark').addClass('added')
+            $('#lte').removeClass('added')
+
+        });
+
+        $('#scroollTo').on('click', function() {
+            $('html,body').animate({
+                    scrollTop: $(".home-section-wrapper").offset().top - 80
+                },
+                'slow');
+        })
+        
+    </script>
+    <script>
+        // $(document).ready(function(){
+        var abc=$('.form-sep input')
+        function checkForInput(abc) {
+            // const $label = $(abc).siblings('label');
+            if(abc.val().length>0){
+                $('.form-sep label').addClass('newClass')
+            }else{
+                $('.form-sep label').removeClass('newClass')
+
+            }$('.form-sep input').each(function() {
+                 checkForInput(this);
+            });
+
+            $('.form-sep input').on('change keyup', function() {
+                 checkForInput(this);  
+            });
+        }
+    // });
+    </script>
+
+</body>
+
+</html>
