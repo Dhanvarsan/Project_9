@@ -6,7 +6,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--#include virtual="includes/meta-tags.html"-->
+    <!-- <link rel="icon" href=""> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=El+Messiri:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Khula:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
 </head>
 
 <body>
@@ -30,8 +40,34 @@
                     </div>
                 </div>
             </div>
-            <!--#include virtual="includes/header.html"-->
-
+            <header class="main-header">
+                <div class="container">
+            
+                    <div class="bottom-header df">
+                        <a class="head-logo df">
+                            <h1>F</h1>
+                        </a>
+                        <div class="head-get">
+                            <a href="javascript:;">Get in Touch</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="scroll-header">
+                    <div class="container">
+                        <div class="scroll-inner df">
+                            <a class="head-logo df">
+                                <h1>F</h1>
+                            </a>
+                            <nav class="head-get df">
+                                <li><a href="javascript:;">Design</a></li>
+                                <li><a href="javascript:;">Stratagy</a></li>
+                                <li><a href="javascript:;">Branding</a></li>
+                                <li><a href="javascript:;">Get in Touch</a></li>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </header>
         </div>
         <div class="home-section-wrapper">
             <div class="container">
@@ -289,8 +325,45 @@
                         </div>
                     </form>
                 </div>
-        <!--#include virtual="includes/footer.html"-->
-
+        <footer>
+            <div class="df pr footer-main" data-aos="fade-up" data-aos-duration="1000">
+                <div class="head-logo df">
+                    <h1>F</h1>
+                </div>
+                <div class="footer-address df fc">
+                    <h2>CALIFORNIA OFFICE</h2>
+                    <address>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque ad ab ipsum quaerat.
+                    </address>
+                </div>
+                <div class="footer-address df fc">
+                    <h2>CALIFORNIA OFFICE</h2>
+                    <address>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque ad ab ipsum quaerat.
+                    </address>
+                </div>
+                <div class="footer-address df fc">
+                    <h2>OTHER CONTACTS</h2>
+                    <a href="javascript:;">lorem@gmail.com</a>
+                    <div class="df">
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-facebook"></i>
+                    </div>
+                </div>
+            </div>
+            </footer>
+            <script src="https://code.jquery.com/jquery-3.6.1.js"></script>
+            <script src="js/common.js"></script>
+            <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+            
+            <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/js/solid.min.js" integrity="sha512-dcTe66qF6q/NW1X64tKXnDDcaVyRowrsVQ9wX6u7KSQpYuAl5COzdMIYDg+HqAXhPpIz1LO9ilUCL4qCbHN5Ng==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/js/all.min.js"></script> -->
+            <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+            <script>
+                AOS.init();
+              </script>
             </div>
         </div>
 
